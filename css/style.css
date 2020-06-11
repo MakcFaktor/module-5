@@ -43,18 +43,18 @@ a {
 }
 
 .clearfix::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
 
 .header {
-  margin: 38px auto 32px auto;
+  padding: 38px 32px;
 }
 
 .site-logo {
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 30px;
   line-height: 32px;
@@ -81,7 +81,7 @@ a {
 }
 
 .nav-list__link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 11px;
@@ -116,7 +116,7 @@ a {
   position: absolute;
   text-align: left;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   margin: auto;
   top: 50%;
@@ -157,12 +157,12 @@ a {
 
 .prev {
   float: left;
-  background-image: url('../img/icons/prev.png');
+  background-image: url("../img/icons/prev.png");
 }
 
 .next {
   float: right;
-  background-image: url('../img/icons/next.png');
+  background-image: url("../img/icons/next.png");
 }
 
 .prev:hover,
@@ -176,7 +176,7 @@ a {
 }
 
 .section-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 48px;
@@ -186,7 +186,7 @@ a {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   display: block;
   width: 164px;
   height: 7px;
@@ -201,7 +201,7 @@ a {
 
 .card-list__item {
   float: left;
-  margin: auto 30px auto 0;
+  margin-right: 30px;
 }
 
 .card-list__item:last-child {
@@ -231,7 +231,7 @@ a {
 }
 
 .card-list__item__link {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   line-height: 32px;
   color: #ffffff;
@@ -239,7 +239,7 @@ a {
 }
 
 .card-list__item__price {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 32px;
@@ -301,7 +301,7 @@ a {
   margin-bottom: 7px;
 }
 
-.icons-list__item:not(:last-child)>button {
+.icons-list__item:not(:last-child) > button {
   width: 50px;
   height: 50px;
 }
@@ -321,21 +321,21 @@ a {
 }
 
 .heart {
-  background-image: url('../img/icons/heart.png');
+  background-image: url("../img/icons/heart.png");
 }
 
 .versus {
-  background-image: url('../img/icons/versus.png');
+  background-image: url("../img/icons/versus.png");
 }
 
 .clock {
-  background-image: url('../img/icons/clock.png');
+  background-image: url("../img/icons/clock.png");
 }
 
 .button-add {
   width: 168px;
   height: 50px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
@@ -351,11 +351,11 @@ a {
 
 .icons-button::before {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   width: 50px;
   height: 50px;
-  background-image: url('../img/icons/truck.png');
+  background-image: url("../img/icons/truck.png");
   background-repeat: no-repeat;
   background-position: center;
   bottom: 0;
@@ -368,7 +368,7 @@ a {
 
 .footer-content {
   padding: 36px 0 32px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 28px;
   color: #fefefe;
